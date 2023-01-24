@@ -1,0 +1,25 @@
+.tablegroup{
+    padding-top:50px;
+    text-align:center;
+    margin:auto;
+    align-items:center;
+    padding-right:50px;
+}
+
+
+th, td{
+    border: thin solid white;
+    padding:5px;
+}
+body {
+    background-color:midnightblue;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-size:25px;
+
+}
+
+.btn{
+    height:50px;
+ width:75px;   
+}

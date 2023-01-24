@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+</head>
+<body onload="initialize();">
+    <form>
+        <label for="roll">Number of Die 1-3:</label><br>
+        <input type="text" id="die"><br>
+        <label for="count">Number of Rolls(must be>0):</label><br>
+        <input type="text" id="rollCount"><br>
+     </form><br>
+     <button class="btn" onclick="updateRollInfo();">Update</button><br><br>
+     <button class="btn" onclick="window.location.reload();">Clear</button>
+     <br><br>
+     <button class="btn" onclick="roll();">Roll</button>
+     <div class ="tablegroup">
+     <table id="table">
+        <tr>
+            <th>Frequency</th>
+            <th>Mean</th>
+            <th>Median</th>
+            <th>Mode</th>
+            <th>Doubles</th>
+            <th>Triples</th>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
+
+
